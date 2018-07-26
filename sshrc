@@ -1,0 +1,3 @@
+cat /etc/ssh/sshrc
+
+/usr/bin/python /home/mailsend/send.py "$(date)" "$SSH_CONNECTION" "$USER"
